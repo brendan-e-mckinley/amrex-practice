@@ -5,6 +5,7 @@
 #include <AMReX_ParmParse.H>
 #include <AMReX_Array.H>
 #include <AMReX_PlotFileUtil.H>
+#include <cmath>
 
 using namespace amrex;
 
@@ -21,7 +22,9 @@ void main_main ()
     RealBox real_box({AMREX_D_DECL(0.0, 0.0, 0.0)},
                     {AMREX_D_DECL(1.0, 1.0, 1.0)});
     int coord = 0; // Cartesian
-    Array<int,AMREX_SPACEDIM> is_periodic{AMREX_D_DECL(1,1,1)};
+
+    // set which dimensions are periodic (in this case, none)
+    Array<int,AMREX_SPACEDIM> is_periodic{AMREX_D_DECL(0,0,0)};
 
     Geometry geom;
     geom.define(domain, real_box, coord, is_periodic);
@@ -34,8 +37,31 @@ void main_main ()
     MultiFab phi(ba, dm, n_comp, n_ghost);
     MultiFab rhs(ba, dm, n_comp, 0);
     
+    // initial guess
     phi.setVal(0.0);
-    rhs.setVal(1.0);  // Example source term
+
+    // forcing function f(x, y) = -2sin(x)sin(y)
+    for (MFIter mfi(rhs); mfi.isValid(); ++mfi)
+    {
+        const Box& bx = mfi.validbox();
+        Array4<Real> arr = rhs.array(mfi);
+        const auto dx = geom.CellSize();
+        const auto prob_lo = geom.ProbLo();
+
+        const IntVect& small = bx.smallEnd();
+        const IntVect& big = bx.bigEnd();
+
+        for (int j = small[1]; j <= big[1]; ++j)
+        {
+            for (int i = small[0]; i <= big[0]; ++i)
+            {
+                Real x = prob_lo[0] + (i + 0.5) * dx[0];
+                Real y = prob_lo[1] + (j + 0.5) * dx[1];
+
+                arr(i,j,0) = -2.0 * std::sin(x) * std::sin(y);
+            }
+        }
+    }
 
     LPInfo info;
     info.setMaxCoarseningLevel(0);

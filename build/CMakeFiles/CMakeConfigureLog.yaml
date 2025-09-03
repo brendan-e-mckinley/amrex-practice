@@ -20,6 +20,7 @@ events:
     names:
       - "uname"
     candidate_directories:
+      - "/Users/Mac/amrex-practice/.venv/bin/"
       - "/opt/local/bin/"
       - "/opt/local/sbin/"
       - "/Library/Frameworks/Python.framework/Versions/3.11/bin/"
@@ -30,9 +31,12 @@ events:
       - "/bin/"
       - "/usr/sbin/"
       - "/sbin/"
+      - "/opt/X11/bin/"
       - "/opt/anaconda3/bin/"
       - "/opt/anaconda3/condabin/"
+      - "/Users/Mac/.vscode/extensions/ms-python.debugpy-2025.10.0-darwin-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
+      - "/Users/Mac/amrex-practice/.venv/bin/uname"
       - "/opt/local/bin/uname"
       - "/opt/local/sbin/uname"
       - "/Library/Frameworks/Python.framework/Versions/3.11/bin/uname"
@@ -42,6 +46,7 @@ events:
     found: "/usr/bin/uname"
     search_context:
       ENV{PATH}:
+        - "/Users/Mac/amrex-practice/.venv/bin"
         - "/opt/local/bin"
         - "/opt/local/sbin"
         - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
@@ -53,6 +58,7 @@ events:
         - "/bin"
         - "/usr/sbin"
         - "/sbin"
+        - "/opt/X11/bin"
         - "/opt/anaconda3/bin"
         - "/opt/anaconda3/condabin"
         - "/opt/local/bin"
@@ -60,6 +66,7 @@ events:
         - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
         - "/usr/local/sbin"
+        - "/Users/Mac/.vscode/extensions/ms-python.debugpy-2025.10.0-darwin-x64/bundled/scripts/noConfigScripts"
   -
     kind: "message-v1"
     backtrace:
@@ -88,6 +95,7 @@ events:
       - "make"
       - "smake"
     candidate_directories:
+      - "/Users/Mac/amrex-practice/.venv/bin/"
       - "/opt/local/bin/"
       - "/opt/local/sbin/"
       - "/Library/Frameworks/Python.framework/Versions/3.11/bin/"
@@ -98,9 +106,12 @@ events:
       - "/bin/"
       - "/usr/sbin/"
       - "/sbin/"
+      - "/opt/X11/bin/"
       - "/opt/anaconda3/bin/"
       - "/opt/anaconda3/condabin/"
+      - "/Users/Mac/.vscode/extensions/ms-python.debugpy-2025.10.0-darwin-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
+      - "/Users/Mac/amrex-practice/.venv/bin/gmake"
       - "/opt/local/bin/gmake"
       - "/opt/local/sbin/gmake"
       - "/Library/Frameworks/Python.framework/Versions/3.11/bin/gmake"
@@ -108,6 +119,7 @@ events:
     found: "/usr/local/bin/gmake"
     search_context:
       ENV{PATH}:
+        - "/Users/Mac/amrex-practice/.venv/bin"
         - "/opt/local/bin"
         - "/opt/local/sbin"
         - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
@@ -119,6 +131,7 @@ events:
         - "/bin"
         - "/usr/sbin"
         - "/sbin"
+        - "/opt/X11/bin"
         - "/opt/anaconda3/bin"
         - "/opt/anaconda3/condabin"
         - "/opt/local/bin"
@@ -126,6 +139,7 @@ events:
         - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
         - "/usr/local/sbin"
+        - "/Users/Mac/.vscode/extensions/ms-python.debugpy-2025.10.0-darwin-x64/bundled/scripts/noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -152,6 +166,7 @@ events:
       - "icx"
       - "clang++"
     candidate_directories:
+      - "/Users/Mac/amrex-practice/.venv/bin/"
       - "/opt/local/bin/"
       - "/opt/local/sbin/"
       - "/Library/Frameworks/Python.framework/Versions/3.11/bin/"
@@ -162,9 +177,12 @@ events:
       - "/bin/"
       - "/usr/sbin/"
       - "/sbin/"
+      - "/opt/X11/bin/"
       - "/opt/anaconda3/bin/"
       - "/opt/anaconda3/condabin/"
+      - "/Users/Mac/.vscode/extensions/ms-python.debugpy-2025.10.0-darwin-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
+      - "/Users/Mac/amrex-practice/.venv/bin/c++"
       - "/opt/local/bin/c++"
       - "/opt/local/sbin/c++"
       - "/Library/Frameworks/Python.framework/Versions/3.11/bin/c++"
@@ -174,6 +192,7 @@ events:
     found: "/usr/bin/c++"
     search_context:
       ENV{PATH}:
+        - "/Users/Mac/amrex-practice/.venv/bin"
         - "/opt/local/bin"
         - "/opt/local/sbin"
         - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
@@ -185,6 +204,7 @@ events:
         - "/bin"
         - "/usr/sbin"
         - "/sbin"
+        - "/opt/X11/bin"
         - "/opt/anaconda3/bin"
         - "/opt/anaconda3/condabin"
         - "/opt/local/bin"
@@ -192,6 +212,7 @@ events:
         - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
         - "/usr/local/sbin"
+        - "/Users/Mac/.vscode/extensions/ms-python.debugpy-2025.10.0-darwin-x64/bundled/scripts/noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -219,6 +240,7 @@ events:
     found: "/usr/local/share/cmake/Modules/CMakeCXXCompilerId.cpp.in"
     search_context:
       ENV{PATH}:
+        - "/Users/Mac/amrex-practice/.venv/bin"
         - "/opt/local/bin"
         - "/opt/local/sbin"
         - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
@@ -230,6 +252,7 @@ events:
         - "/bin"
         - "/usr/sbin"
         - "/sbin"
+        - "/opt/X11/bin"
         - "/opt/anaconda3/bin"
         - "/opt/anaconda3/condabin"
         - "/opt/local/bin"
@@ -237,6 +260,7 @@ events:
         - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
         - "/usr/local/sbin"
+        - "/Users/Mac/.vscode/extensions/ms-python.debugpy-2025.10.0-darwin-x64/bundled/scripts/noConfigScripts"
   -
     kind: "message-v1"
     backtrace:
@@ -308,6 +332,7 @@ events:
       - "ar"
     candidate_directories:
       - "/usr/bin/"
+      - "/Users/Mac/amrex-practice/.venv/bin/"
       - "/opt/local/bin/"
       - "/opt/local/sbin/"
       - "/Library/Frameworks/Python.framework/Versions/3.11/bin/"
@@ -317,11 +342,14 @@ events:
       - "/bin/"
       - "/usr/sbin/"
       - "/sbin/"
+      - "/opt/X11/bin/"
       - "/opt/anaconda3/bin/"
       - "/opt/anaconda3/condabin/"
+      - "/Users/Mac/.vscode/extensions/ms-python.debugpy-2025.10.0-darwin-x64/bundled/scripts/noConfigScripts/"
     found: "/usr/bin/ar"
     search_context:
       ENV{PATH}:
+        - "/Users/Mac/amrex-practice/.venv/bin"
         - "/opt/local/bin"
         - "/opt/local/sbin"
         - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
@@ -333,6 +361,7 @@ events:
         - "/bin"
         - "/usr/sbin"
         - "/sbin"
+        - "/opt/X11/bin"
         - "/opt/anaconda3/bin"
         - "/opt/anaconda3/condabin"
         - "/opt/local/bin"
@@ -340,6 +369,7 @@ events:
         - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
         - "/usr/local/sbin"
+        - "/Users/Mac/.vscode/extensions/ms-python.debugpy-2025.10.0-darwin-x64/bundled/scripts/noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -361,6 +391,7 @@ events:
       - "ranlib"
     candidate_directories:
       - "/usr/bin/"
+      - "/Users/Mac/amrex-practice/.venv/bin/"
       - "/opt/local/bin/"
       - "/opt/local/sbin/"
       - "/Library/Frameworks/Python.framework/Versions/3.11/bin/"
@@ -370,11 +401,14 @@ events:
       - "/bin/"
       - "/usr/sbin/"
       - "/sbin/"
+      - "/opt/X11/bin/"
       - "/opt/anaconda3/bin/"
       - "/opt/anaconda3/condabin/"
+      - "/Users/Mac/.vscode/extensions/ms-python.debugpy-2025.10.0-darwin-x64/bundled/scripts/noConfigScripts/"
     found: "/usr/bin/ranlib"
     search_context:
       ENV{PATH}:
+        - "/Users/Mac/amrex-practice/.venv/bin"
         - "/opt/local/bin"
         - "/opt/local/sbin"
         - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
@@ -386,6 +420,7 @@ events:
         - "/bin"
         - "/usr/sbin"
         - "/sbin"
+        - "/opt/X11/bin"
         - "/opt/anaconda3/bin"
         - "/opt/anaconda3/condabin"
         - "/opt/local/bin"
@@ -393,6 +428,7 @@ events:
         - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
         - "/usr/local/sbin"
+        - "/Users/Mac/.vscode/extensions/ms-python.debugpy-2025.10.0-darwin-x64/bundled/scripts/noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -414,6 +450,7 @@ events:
       - "strip"
     candidate_directories:
       - "/usr/bin/"
+      - "/Users/Mac/amrex-practice/.venv/bin/"
       - "/opt/local/bin/"
       - "/opt/local/sbin/"
       - "/Library/Frameworks/Python.framework/Versions/3.11/bin/"
@@ -423,11 +460,14 @@ events:
       - "/bin/"
       - "/usr/sbin/"
       - "/sbin/"
+      - "/opt/X11/bin/"
       - "/opt/anaconda3/bin/"
       - "/opt/anaconda3/condabin/"
+      - "/Users/Mac/.vscode/extensions/ms-python.debugpy-2025.10.0-darwin-x64/bundled/scripts/noConfigScripts/"
     found: "/usr/bin/strip"
     search_context:
       ENV{PATH}:
+        - "/Users/Mac/amrex-practice/.venv/bin"
         - "/opt/local/bin"
         - "/opt/local/sbin"
         - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
@@ -439,6 +479,7 @@ events:
         - "/bin"
         - "/usr/sbin"
         - "/sbin"
+        - "/opt/X11/bin"
         - "/opt/anaconda3/bin"
         - "/opt/anaconda3/condabin"
         - "/opt/local/bin"
@@ -446,6 +487,7 @@ events:
         - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
         - "/usr/local/sbin"
+        - "/Users/Mac/.vscode/extensions/ms-python.debugpy-2025.10.0-darwin-x64/bundled/scripts/noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -467,6 +509,7 @@ events:
       - "ld"
     candidate_directories:
       - "/usr/bin/"
+      - "/Users/Mac/amrex-practice/.venv/bin/"
       - "/opt/local/bin/"
       - "/opt/local/sbin/"
       - "/Library/Frameworks/Python.framework/Versions/3.11/bin/"
@@ -476,11 +519,14 @@ events:
       - "/bin/"
       - "/usr/sbin/"
       - "/sbin/"
+      - "/opt/X11/bin/"
       - "/opt/anaconda3/bin/"
       - "/opt/anaconda3/condabin/"
+      - "/Users/Mac/.vscode/extensions/ms-python.debugpy-2025.10.0-darwin-x64/bundled/scripts/noConfigScripts/"
     found: "/usr/bin/ld"
     search_context:
       ENV{PATH}:
+        - "/Users/Mac/amrex-practice/.venv/bin"
         - "/opt/local/bin"
         - "/opt/local/sbin"
         - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
@@ -492,6 +538,7 @@ events:
         - "/bin"
         - "/usr/sbin"
         - "/sbin"
+        - "/opt/X11/bin"
         - "/opt/anaconda3/bin"
         - "/opt/anaconda3/condabin"
         - "/opt/local/bin"
@@ -499,6 +546,7 @@ events:
         - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
         - "/usr/local/sbin"
+        - "/Users/Mac/.vscode/extensions/ms-python.debugpy-2025.10.0-darwin-x64/bundled/scripts/noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -520,6 +568,7 @@ events:
       - "nm"
     candidate_directories:
       - "/usr/bin/"
+      - "/Users/Mac/amrex-practice/.venv/bin/"
       - "/opt/local/bin/"
       - "/opt/local/sbin/"
       - "/Library/Frameworks/Python.framework/Versions/3.11/bin/"
@@ -529,11 +578,14 @@ events:
       - "/bin/"
       - "/usr/sbin/"
       - "/sbin/"
+      - "/opt/X11/bin/"
       - "/opt/anaconda3/bin/"
       - "/opt/anaconda3/condabin/"
+      - "/Users/Mac/.vscode/extensions/ms-python.debugpy-2025.10.0-darwin-x64/bundled/scripts/noConfigScripts/"
     found: "/usr/bin/nm"
     search_context:
       ENV{PATH}:
+        - "/Users/Mac/amrex-practice/.venv/bin"
         - "/opt/local/bin"
         - "/opt/local/sbin"
         - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
@@ -545,6 +597,7 @@ events:
         - "/bin"
         - "/usr/sbin"
         - "/sbin"
+        - "/opt/X11/bin"
         - "/opt/anaconda3/bin"
         - "/opt/anaconda3/condabin"
         - "/opt/local/bin"
@@ -552,6 +605,7 @@ events:
         - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
         - "/usr/local/sbin"
+        - "/Users/Mac/.vscode/extensions/ms-python.debugpy-2025.10.0-darwin-x64/bundled/scripts/noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -573,6 +627,7 @@ events:
       - "objdump"
     candidate_directories:
       - "/usr/bin/"
+      - "/Users/Mac/amrex-practice/.venv/bin/"
       - "/opt/local/bin/"
       - "/opt/local/sbin/"
       - "/Library/Frameworks/Python.framework/Versions/3.11/bin/"
@@ -582,11 +637,14 @@ events:
       - "/bin/"
       - "/usr/sbin/"
       - "/sbin/"
+      - "/opt/X11/bin/"
       - "/opt/anaconda3/bin/"
       - "/opt/anaconda3/condabin/"
+      - "/Users/Mac/.vscode/extensions/ms-python.debugpy-2025.10.0-darwin-x64/bundled/scripts/noConfigScripts/"
     found: "/usr/bin/objdump"
     search_context:
       ENV{PATH}:
+        - "/Users/Mac/amrex-practice/.venv/bin"
         - "/opt/local/bin"
         - "/opt/local/sbin"
         - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
@@ -598,6 +656,7 @@ events:
         - "/bin"
         - "/usr/sbin"
         - "/sbin"
+        - "/opt/X11/bin"
         - "/opt/anaconda3/bin"
         - "/opt/anaconda3/condabin"
         - "/opt/local/bin"
@@ -605,6 +664,7 @@ events:
         - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
         - "/usr/local/sbin"
+        - "/Users/Mac/.vscode/extensions/ms-python.debugpy-2025.10.0-darwin-x64/bundled/scripts/noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -626,6 +686,7 @@ events:
       - "objcopy"
     candidate_directories:
       - "/usr/bin/"
+      - "/Users/Mac/amrex-practice/.venv/bin/"
       - "/opt/local/bin/"
       - "/opt/local/sbin/"
       - "/Library/Frameworks/Python.framework/Versions/3.11/bin/"
@@ -635,10 +696,13 @@ events:
       - "/bin/"
       - "/usr/sbin/"
       - "/sbin/"
+      - "/opt/X11/bin/"
       - "/opt/anaconda3/bin/"
       - "/opt/anaconda3/condabin/"
+      - "/Users/Mac/.vscode/extensions/ms-python.debugpy-2025.10.0-darwin-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "/usr/bin/objcopy"
+      - "/Users/Mac/amrex-practice/.venv/bin/objcopy"
       - "/opt/local/bin/objcopy"
       - "/opt/local/sbin/objcopy"
       - "/Library/Frameworks/Python.framework/Versions/3.11/bin/objcopy"
@@ -648,11 +712,14 @@ events:
       - "/bin/objcopy"
       - "/usr/sbin/objcopy"
       - "/sbin/objcopy"
+      - "/opt/X11/bin/objcopy"
       - "/opt/anaconda3/bin/objcopy"
       - "/opt/anaconda3/condabin/objcopy"
+      - "/Users/Mac/.vscode/extensions/ms-python.debugpy-2025.10.0-darwin-x64/bundled/scripts/noConfigScripts/objcopy"
     found: false
     search_context:
       ENV{PATH}:
+        - "/Users/Mac/amrex-practice/.venv/bin"
         - "/opt/local/bin"
         - "/opt/local/sbin"
         - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
@@ -664,6 +731,7 @@ events:
         - "/bin"
         - "/usr/sbin"
         - "/sbin"
+        - "/opt/X11/bin"
         - "/opt/anaconda3/bin"
         - "/opt/anaconda3/condabin"
         - "/opt/local/bin"
@@ -671,6 +739,7 @@ events:
         - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
         - "/usr/local/sbin"
+        - "/Users/Mac/.vscode/extensions/ms-python.debugpy-2025.10.0-darwin-x64/bundled/scripts/noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -692,6 +761,7 @@ events:
       - "readelf"
     candidate_directories:
       - "/usr/bin/"
+      - "/Users/Mac/amrex-practice/.venv/bin/"
       - "/opt/local/bin/"
       - "/opt/local/sbin/"
       - "/Library/Frameworks/Python.framework/Versions/3.11/bin/"
@@ -701,10 +771,13 @@ events:
       - "/bin/"
       - "/usr/sbin/"
       - "/sbin/"
+      - "/opt/X11/bin/"
       - "/opt/anaconda3/bin/"
       - "/opt/anaconda3/condabin/"
+      - "/Users/Mac/.vscode/extensions/ms-python.debugpy-2025.10.0-darwin-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "/usr/bin/readelf"
+      - "/Users/Mac/amrex-practice/.venv/bin/readelf"
       - "/opt/local/bin/readelf"
       - "/opt/local/sbin/readelf"
       - "/Library/Frameworks/Python.framework/Versions/3.11/bin/readelf"
@@ -714,11 +787,14 @@ events:
       - "/bin/readelf"
       - "/usr/sbin/readelf"
       - "/sbin/readelf"
+      - "/opt/X11/bin/readelf"
       - "/opt/anaconda3/bin/readelf"
       - "/opt/anaconda3/condabin/readelf"
+      - "/Users/Mac/.vscode/extensions/ms-python.debugpy-2025.10.0-darwin-x64/bundled/scripts/noConfigScripts/readelf"
     found: false
     search_context:
       ENV{PATH}:
+        - "/Users/Mac/amrex-practice/.venv/bin"
         - "/opt/local/bin"
         - "/opt/local/sbin"
         - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
@@ -730,6 +806,7 @@ events:
         - "/bin"
         - "/usr/sbin"
         - "/sbin"
+        - "/opt/X11/bin"
         - "/opt/anaconda3/bin"
         - "/opt/anaconda3/condabin"
         - "/opt/local/bin"
@@ -737,6 +814,7 @@ events:
         - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
         - "/usr/local/sbin"
+        - "/Users/Mac/.vscode/extensions/ms-python.debugpy-2025.10.0-darwin-x64/bundled/scripts/noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -758,6 +836,7 @@ events:
       - "dlltool"
     candidate_directories:
       - "/usr/bin/"
+      - "/Users/Mac/amrex-practice/.venv/bin/"
       - "/opt/local/bin/"
       - "/opt/local/sbin/"
       - "/Library/Frameworks/Python.framework/Versions/3.11/bin/"
@@ -767,10 +846,13 @@ events:
       - "/bin/"
       - "/usr/sbin/"
       - "/sbin/"
+      - "/opt/X11/bin/"
       - "/opt/anaconda3/bin/"
       - "/opt/anaconda3/condabin/"
+      - "/Users/Mac/.vscode/extensions/ms-python.debugpy-2025.10.0-darwin-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "/usr/bin/dlltool"
+      - "/Users/Mac/amrex-practice/.venv/bin/dlltool"
       - "/opt/local/bin/dlltool"
       - "/opt/local/sbin/dlltool"
       - "/Library/Frameworks/Python.framework/Versions/3.11/bin/dlltool"
@@ -780,11 +862,14 @@ events:
       - "/bin/dlltool"
       - "/usr/sbin/dlltool"
       - "/sbin/dlltool"
+      - "/opt/X11/bin/dlltool"
       - "/opt/anaconda3/bin/dlltool"
       - "/opt/anaconda3/condabin/dlltool"
+      - "/Users/Mac/.vscode/extensions/ms-python.debugpy-2025.10.0-darwin-x64/bundled/scripts/noConfigScripts/dlltool"
     found: false
     search_context:
       ENV{PATH}:
+        - "/Users/Mac/amrex-practice/.venv/bin"
         - "/opt/local/bin"
         - "/opt/local/sbin"
         - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
@@ -796,6 +881,7 @@ events:
         - "/bin"
         - "/usr/sbin"
         - "/sbin"
+        - "/opt/X11/bin"
         - "/opt/anaconda3/bin"
         - "/opt/anaconda3/condabin"
         - "/opt/local/bin"
@@ -803,6 +889,7 @@ events:
         - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
         - "/usr/local/sbin"
+        - "/Users/Mac/.vscode/extensions/ms-python.debugpy-2025.10.0-darwin-x64/bundled/scripts/noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -824,6 +911,7 @@ events:
       - "addr2line"
     candidate_directories:
       - "/usr/bin/"
+      - "/Users/Mac/amrex-practice/.venv/bin/"
       - "/opt/local/bin/"
       - "/opt/local/sbin/"
       - "/Library/Frameworks/Python.framework/Versions/3.11/bin/"
@@ -833,10 +921,13 @@ events:
       - "/bin/"
       - "/usr/sbin/"
       - "/sbin/"
+      - "/opt/X11/bin/"
       - "/opt/anaconda3/bin/"
       - "/opt/anaconda3/condabin/"
+      - "/Users/Mac/.vscode/extensions/ms-python.debugpy-2025.10.0-darwin-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "/usr/bin/addr2line"
+      - "/Users/Mac/amrex-practice/.venv/bin/addr2line"
       - "/opt/local/bin/addr2line"
       - "/opt/local/sbin/addr2line"
       - "/Library/Frameworks/Python.framework/Versions/3.11/bin/addr2line"
@@ -846,11 +937,14 @@ events:
       - "/bin/addr2line"
       - "/usr/sbin/addr2line"
       - "/sbin/addr2line"
+      - "/opt/X11/bin/addr2line"
       - "/opt/anaconda3/bin/addr2line"
       - "/opt/anaconda3/condabin/addr2line"
+      - "/Users/Mac/.vscode/extensions/ms-python.debugpy-2025.10.0-darwin-x64/bundled/scripts/noConfigScripts/addr2line"
     found: false
     search_context:
       ENV{PATH}:
+        - "/Users/Mac/amrex-practice/.venv/bin"
         - "/opt/local/bin"
         - "/opt/local/sbin"
         - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
@@ -862,6 +956,7 @@ events:
         - "/bin"
         - "/usr/sbin"
         - "/sbin"
+        - "/opt/X11/bin"
         - "/opt/anaconda3/bin"
         - "/opt/anaconda3/condabin"
         - "/opt/local/bin"
@@ -869,6 +964,7 @@ events:
         - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
         - "/usr/local/sbin"
+        - "/Users/Mac/.vscode/extensions/ms-python.debugpy-2025.10.0-darwin-x64/bundled/scripts/noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -890,6 +986,7 @@ events:
       - "tapi"
     candidate_directories:
       - "/usr/bin/"
+      - "/Users/Mac/amrex-practice/.venv/bin/"
       - "/opt/local/bin/"
       - "/opt/local/sbin/"
       - "/Library/Frameworks/Python.framework/Versions/3.11/bin/"
@@ -899,10 +996,13 @@ events:
       - "/bin/"
       - "/usr/sbin/"
       - "/sbin/"
+      - "/opt/X11/bin/"
       - "/opt/anaconda3/bin/"
       - "/opt/anaconda3/condabin/"
+      - "/Users/Mac/.vscode/extensions/ms-python.debugpy-2025.10.0-darwin-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "/usr/bin/tapi"
+      - "/Users/Mac/amrex-practice/.venv/bin/tapi"
       - "/opt/local/bin/tapi"
       - "/opt/local/sbin/tapi"
       - "/Library/Frameworks/Python.framework/Versions/3.11/bin/tapi"
@@ -912,9 +1012,11 @@ events:
       - "/bin/tapi"
       - "/usr/sbin/tapi"
       - "/sbin/tapi"
+      - "/opt/X11/bin/tapi"
     found: "/opt/anaconda3/bin/tapi"
     search_context:
       ENV{PATH}:
+        - "/Users/Mac/amrex-practice/.venv/bin"
         - "/opt/local/bin"
         - "/opt/local/sbin"
         - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
@@ -926,6 +1028,7 @@ events:
         - "/bin"
         - "/usr/sbin"
         - "/sbin"
+        - "/opt/X11/bin"
         - "/opt/anaconda3/bin"
         - "/opt/anaconda3/condabin"
         - "/opt/local/bin"
@@ -933,6 +1036,7 @@ events:
         - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
         - "/usr/local/sbin"
+        - "/Users/Mac/.vscode/extensions/ms-python.debugpy-2025.10.0-darwin-x64/bundled/scripts/noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -953,6 +1057,7 @@ events:
     names:
       - "install_name_tool"
     candidate_directories:
+      - "/Users/Mac/amrex-practice/.venv/bin/"
       - "/opt/local/bin/"
       - "/opt/local/sbin/"
       - "/Library/Frameworks/Python.framework/Versions/3.11/bin/"
@@ -963,9 +1068,12 @@ events:
       - "/bin/"
       - "/usr/sbin/"
       - "/sbin/"
+      - "/opt/X11/bin/"
       - "/opt/anaconda3/bin/"
       - "/opt/anaconda3/condabin/"
+      - "/Users/Mac/.vscode/extensions/ms-python.debugpy-2025.10.0-darwin-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
+      - "/Users/Mac/amrex-practice/.venv/bin/install_name_tool"
       - "/opt/local/bin/install_name_tool"
       - "/opt/local/sbin/install_name_tool"
       - "/Library/Frameworks/Python.framework/Versions/3.11/bin/install_name_tool"
@@ -975,6 +1083,7 @@ events:
     found: "/usr/bin/install_name_tool"
     search_context:
       ENV{PATH}:
+        - "/Users/Mac/amrex-practice/.venv/bin"
         - "/opt/local/bin"
         - "/opt/local/sbin"
         - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
@@ -986,6 +1095,7 @@ events:
         - "/bin"
         - "/usr/sbin"
         - "/sbin"
+        - "/opt/X11/bin"
         - "/opt/anaconda3/bin"
         - "/opt/anaconda3/condabin"
         - "/opt/local/bin"
@@ -993,6 +1103,7 @@ events:
         - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
         - "/usr/local/sbin"
+        - "/Users/Mac/.vscode/extensions/ms-python.debugpy-2025.10.0-darwin-x64/bundled/scripts/noConfigScripts"
       CMAKE_INSTALL_PREFIX: "/usr/local"
   -
     kind: "try_compile-v1"
@@ -1003,8 +1114,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/Users/Mac/amrex-practice/build/CMakeFiles/CMakeScratch/TryCompile-PBLy7s"
-      binary: "/Users/Mac/amrex-practice/build/CMakeFiles/CMakeScratch/TryCompile-PBLy7s"
+      source: "/Users/Mac/amrex-practice/build/CMakeFiles/CMakeScratch/TryCompile-7mjLwQ"
+      binary: "/Users/Mac/amrex-practice/build/CMakeFiles/CMakeScratch/TryCompile-7mjLwQ"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -1017,19 +1128,19 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/Users/Mac/amrex-practice/build/CMakeFiles/CMakeScratch/TryCompile-PBLy7s'
+        Change Dir: '/Users/Mac/amrex-practice/build/CMakeFiles/CMakeScratch/TryCompile-7mjLwQ'
         
-        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/local/bin/gmake -f Makefile cmTC_88b2f/fast
-        /usr/local/bin/gmake  -f CMakeFiles/cmTC_88b2f.dir/build.make CMakeFiles/cmTC_88b2f.dir/build
-        gmake[1]: Entering directory '/Users/Mac/amrex-practice/build/CMakeFiles/CMakeScratch/TryCompile-PBLy7s'
-        Building CXX object CMakeFiles/cmTC_88b2f.dir/CMakeCXXCompilerABI.cpp.o
-        /usr/bin/c++   -v -Wl,-v -MD -MT CMakeFiles/cmTC_88b2f.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_88b2f.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_88b2f.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/local/bin/gmake -f Makefile cmTC_c3ccb/fast
+        /usr/local/bin/gmake  -f CMakeFiles/cmTC_c3ccb.dir/build.make CMakeFiles/cmTC_c3ccb.dir/build
+        gmake[1]: Entering directory '/Users/Mac/amrex-practice/build/CMakeFiles/CMakeScratch/TryCompile-7mjLwQ'
+        Building CXX object CMakeFiles/cmTC_c3ccb.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -v -Wl,-v -MD -MT CMakeFiles/cmTC_c3ccb.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_c3ccb.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_c3ccb.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         Apple clang version 14.0.0 (clang-1400.0.29.202)
         Target: x86_64-apple-darwin21.6.0
         Thread model: posix
         InstalledDir: /Library/Developer/CommandLineTools/usr/bin
         clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
-         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple x86_64-apple-macosx12.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -fno-rounding-math -funwind-tables=2 -target-sdk-version=13.1 -fvisibility-inlines-hidden-static-local-var -target-cpu penryn -tune-cpu generic -debugger-tuning=lldb -target-linker-version 820.1 -v -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0 -dependency-file CMakeFiles/cmTC_88b2f.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_88b2f.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -stdlib=libc++ -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -Wno-cast-function-type -Wno-bitwise-instead-of-logical -fdeprecated-macro -fdebug-compilation-dir=/Users/Mac/amrex-practice/build/CMakeFiles/CMakeScratch/TryCompile-PBLy7s -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+messageToSelfInClassMethodIdReturnType -clang-vendor-feature=+disableInferNewAvailabilityFromInit -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_88b2f.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/local/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple x86_64-apple-macosx12.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -fno-rounding-math -funwind-tables=2 -target-sdk-version=13.1 -fvisibility-inlines-hidden-static-local-var -target-cpu penryn -tune-cpu generic -debugger-tuning=lldb -target-linker-version 820.1 -v -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0 -dependency-file CMakeFiles/cmTC_c3ccb.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_c3ccb.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -stdlib=libc++ -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -Wno-cast-function-type -Wno-bitwise-instead-of-logical -fdeprecated-macro -fdebug-compilation-dir=/Users/Mac/amrex-practice/build/CMakeFiles/CMakeScratch/TryCompile-7mjLwQ -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+messageToSelfInClassMethodIdReturnType -clang-vendor-feature=+disableInferNewAvailabilityFromInit -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_c3ccb.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/local/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         clang -cc1 version 14.0.0 (clang-1400.0.29.202) default target x86_64-apple-darwin21.6.0
         ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"
         ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"
@@ -1042,13 +1153,13 @@ events:
          /Library/Developer/CommandLineTools/usr/include
          /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)
         End of search list.
-        Linking CXX executable cmTC_88b2f
-        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_88b2f.dir/link.txt --verbose=1
+        Linking CXX executable cmTC_c3ccb
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c3ccb.dir/link.txt --verbose=1
         Apple clang version 14.0.0 (clang-1400.0.29.202)
         Target: x86_64-apple-darwin21.6.0
         Thread model: posix
         InstalledDir: /Library/Developer/CommandLineTools/usr/bin
-         "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 12.0.0 13.1 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -o cmTC_88b2f -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_88b2f.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/lib/darwin/libclang_rt.osx.a
+         "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 12.0.0 13.1 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -o cmTC_c3ccb -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_c3ccb.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/lib/darwin/libclang_rt.osx.a
         @(#)PROGRAM:ld  PROJECT:ld64-820.1
         BUILD 20:07:01 Nov  7 2022
         configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
@@ -1057,8 +1168,8 @@ events:
         	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib
         Framework search paths:
         	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/
-        /usr/bin/c++ -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_88b2f.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_88b2f
-        gmake[1]: Leaving directory '/Users/Mac/amrex-practice/build/CMakeFiles/CMakeScratch/TryCompile-PBLy7s'
+        /usr/bin/c++ -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_c3ccb.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_c3ccb
+        gmake[1]: Leaving directory '/Users/Mac/amrex-practice/build/CMakeFiles/CMakeScratch/TryCompile-7mjLwQ'
         
       exitCode: 0
   -
@@ -1104,19 +1215,19 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/Users/Mac/amrex-practice/build/CMakeFiles/CMakeScratch/TryCompile-PBLy7s']
+        ignore line: [Change Dir: '/Users/Mac/amrex-practice/build/CMakeFiles/CMakeScratch/TryCompile-7mjLwQ']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/local/bin/gmake -f Makefile cmTC_88b2f/fast]
-        ignore line: [/usr/local/bin/gmake  -f CMakeFiles/cmTC_88b2f.dir/build.make CMakeFiles/cmTC_88b2f.dir/build]
-        ignore line: [gmake[1]: Entering directory '/Users/Mac/amrex-practice/build/CMakeFiles/CMakeScratch/TryCompile-PBLy7s']
-        ignore line: [Building CXX object CMakeFiles/cmTC_88b2f.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/usr/bin/c++   -v -Wl -v -MD -MT CMakeFiles/cmTC_88b2f.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_88b2f.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_88b2f.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/local/bin/gmake -f Makefile cmTC_c3ccb/fast]
+        ignore line: [/usr/local/bin/gmake  -f CMakeFiles/cmTC_c3ccb.dir/build.make CMakeFiles/cmTC_c3ccb.dir/build]
+        ignore line: [gmake[1]: Entering directory '/Users/Mac/amrex-practice/build/CMakeFiles/CMakeScratch/TryCompile-7mjLwQ']
+        ignore line: [Building CXX object CMakeFiles/cmTC_c3ccb.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -v -Wl -v -MD -MT CMakeFiles/cmTC_c3ccb.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_c3ccb.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_c3ccb.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Apple clang version 14.0.0 (clang-1400.0.29.202)]
         ignore line: [Target: x86_64-apple-darwin21.6.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
         ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
-        ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple x86_64-apple-macosx12.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -fno-rounding-math -funwind-tables=2 -target-sdk-version=13.1 -fvisibility-inlines-hidden-static-local-var -target-cpu penryn -tune-cpu generic -debugger-tuning=lldb -target-linker-version 820.1 -v -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0 -dependency-file CMakeFiles/cmTC_88b2f.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_88b2f.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -stdlib=libc++ -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -Wno-cast-function-type -Wno-bitwise-instead-of-logical -fdeprecated-macro -fdebug-compilation-dir=/Users/Mac/amrex-practice/build/CMakeFiles/CMakeScratch/TryCompile-PBLy7s -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+messageToSelfInClassMethodIdReturnType -clang-vendor-feature=+disableInferNewAvailabilityFromInit -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_88b2f.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/local/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple x86_64-apple-macosx12.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -fno-rounding-math -funwind-tables=2 -target-sdk-version=13.1 -fvisibility-inlines-hidden-static-local-var -target-cpu penryn -tune-cpu generic -debugger-tuning=lldb -target-linker-version 820.1 -v -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0 -dependency-file CMakeFiles/cmTC_c3ccb.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_c3ccb.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -stdlib=libc++ -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -Wno-cast-function-type -Wno-bitwise-instead-of-logical -fdeprecated-macro -fdebug-compilation-dir=/Users/Mac/amrex-practice/build/CMakeFiles/CMakeScratch/TryCompile-7mjLwQ -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+messageToSelfInClassMethodIdReturnType -clang-vendor-feature=+disableInferNewAvailabilityFromInit -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_c3ccb.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/local/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [clang -cc1 version 14.0.0 (clang-1400.0.29.202) default target x86_64-apple-darwin21.6.0]
         ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"]
         ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"]
@@ -1129,13 +1240,13 @@ events:
         ignore line: [ /Library/Developer/CommandLineTools/usr/include]
         ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)]
         ignore line: [End of search list.]
-        ignore line: [Linking CXX executable cmTC_88b2f]
-        ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_88b2f.dir/link.txt --verbose=1]
+        ignore line: [Linking CXX executable cmTC_c3ccb]
+        ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c3ccb.dir/link.txt --verbose=1]
         ignore line: [Apple clang version 14.0.0 (clang-1400.0.29.202)]
         ignore line: [Target: x86_64-apple-darwin21.6.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
-        link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 12.0.0 13.1 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -o cmTC_88b2f -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_88b2f.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/lib/darwin/libclang_rt.osx.a]
+        link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 12.0.0 13.1 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -o cmTC_c3ccb -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_c3ccb.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/lib/darwin/libclang_rt.osx.a]
           arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
           arg [-demangle] ==> ignore
           arg [-lto_library] ==> ignore, skip following value
@@ -1150,12 +1261,12 @@ events:
           arg [-syslibroot] ==> ignore
           arg [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_88b2f] ==> ignore
+          arg [cmTC_c3ccb] ==> ignore
           arg [-L/usr/local/lib] ==> dir [/usr/local/lib]
           arg [-search_paths_first] ==> ignore
           arg [-headerpad_max_install_names] ==> ignore
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_88b2f.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_c3ccb.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lc++] ==> lib [c++]
           arg [-lSystem] ==> lib [System]
           arg [/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/lib/darwin/libclang_rt.osx.a]
@@ -1208,6 +1319,7 @@ events:
     names:
       - "git"
     candidate_directories:
+      - "/Users/Mac/amrex-practice/.venv/bin/"
       - "/opt/local/bin/"
       - "/opt/local/sbin/"
       - "/Library/Frameworks/Python.framework/Versions/3.11/bin/"
@@ -1218,8 +1330,10 @@ events:
       - "/bin/"
       - "/usr/sbin/"
       - "/sbin/"
+      - "/opt/X11/bin/"
       - "/opt/anaconda3/bin/"
       - "/opt/anaconda3/condabin/"
+      - "/Users/Mac/.vscode/extensions/ms-python.debugpy-2025.10.0-darwin-x64/bundled/scripts/noConfigScripts/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/bin/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/sbin/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
@@ -1248,6 +1362,7 @@ events:
       - "/opt/local/"
       - "/Applications/"
     searched_directories:
+      - "/Users/Mac/amrex-practice/.venv/bin/git"
       - "/opt/local/bin/git"
       - "/opt/local/sbin/git"
       - "/Library/Frameworks/Python.framework/Versions/3.11/bin/git"
@@ -1257,6 +1372,7 @@ events:
     found: "/usr/bin/git"
     search_context:
       ENV{PATH}:
+        - "/Users/Mac/amrex-practice/.venv/bin"
         - "/opt/local/bin"
         - "/opt/local/sbin"
         - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
@@ -1268,6 +1384,7 @@ events:
         - "/bin"
         - "/usr/sbin"
         - "/sbin"
+        - "/opt/X11/bin"
         - "/opt/anaconda3/bin"
         - "/opt/anaconda3/condabin"
         - "/opt/local/bin"
@@ -1275,6 +1392,7 @@ events:
         - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
         - "/usr/local/sbin"
+        - "/Users/Mac/.vscode/extensions/ms-python.debugpy-2025.10.0-darwin-x64/bundled/scripts/noConfigScripts"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -1321,6 +1439,7 @@ events:
     found: "/usr/bin/cc"
     search_context:
       ENV{PATH}:
+        - "/Users/Mac/amrex-practice/.venv/bin"
         - "/opt/local/bin"
         - "/opt/local/sbin"
         - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
@@ -1332,6 +1451,7 @@ events:
         - "/bin"
         - "/usr/sbin"
         - "/sbin"
+        - "/opt/X11/bin"
         - "/opt/anaconda3/bin"
         - "/opt/anaconda3/condabin"
         - "/opt/local/bin"
@@ -1339,6 +1459,7 @@ events:
         - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
         - "/usr/local/sbin"
+        - "/Users/Mac/.vscode/extensions/ms-python.debugpy-2025.10.0-darwin-x64/bundled/scripts/noConfigScripts"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -1383,6 +1504,7 @@ events:
     found: "/usr/local/share/cmake/Modules/CMakeCCompilerId.c.in"
     search_context:
       ENV{PATH}:
+        - "/Users/Mac/amrex-practice/.venv/bin"
         - "/opt/local/bin"
         - "/opt/local/sbin"
         - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
@@ -1394,6 +1516,7 @@ events:
         - "/bin"
         - "/usr/sbin"
         - "/sbin"
+        - "/opt/X11/bin"
         - "/opt/anaconda3/bin"
         - "/opt/anaconda3/condabin"
         - "/opt/local/bin"
@@ -1401,6 +1524,7 @@ events:
         - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
         - "/usr/local/sbin"
+        - "/Users/Mac/.vscode/extensions/ms-python.debugpy-2025.10.0-darwin-x64/bundled/scripts/noConfigScripts"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -1486,8 +1610,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/Users/Mac/amrex-practice/build/CMakeFiles/CMakeScratch/TryCompile-4BntK5"
-      binary: "/Users/Mac/amrex-practice/build/CMakeFiles/CMakeScratch/TryCompile-4BntK5"
+      source: "/Users/Mac/amrex-practice/build/CMakeFiles/CMakeScratch/TryCompile-led78N"
+      binary: "/Users/Mac/amrex-practice/build/CMakeFiles/CMakeScratch/TryCompile-led78N"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -1501,19 +1625,19 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/Users/Mac/amrex-practice/build/CMakeFiles/CMakeScratch/TryCompile-4BntK5'
+        Change Dir: '/Users/Mac/amrex-practice/build/CMakeFiles/CMakeScratch/TryCompile-led78N'
         
-        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/local/bin/gmake -f Makefile cmTC_14d91/fast
-        /usr/local/bin/gmake  -f CMakeFiles/cmTC_14d91.dir/build.make CMakeFiles/cmTC_14d91.dir/build
-        gmake[1]: Entering directory '/Users/Mac/amrex-practice/build/CMakeFiles/CMakeScratch/TryCompile-4BntK5'
-        Building C object CMakeFiles/cmTC_14d91.dir/CMakeCCompilerABI.c.o
-        /usr/bin/cc   -v -Wl,-v -MD -MT CMakeFiles/cmTC_14d91.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_14d91.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_14d91.dir/CMakeCCompilerABI.c.o -c /usr/local/share/cmake/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/local/bin/gmake -f Makefile cmTC_b2260/fast
+        /usr/local/bin/gmake  -f CMakeFiles/cmTC_b2260.dir/build.make CMakeFiles/cmTC_b2260.dir/build
+        gmake[1]: Entering directory '/Users/Mac/amrex-practice/build/CMakeFiles/CMakeScratch/TryCompile-led78N'
+        Building C object CMakeFiles/cmTC_b2260.dir/CMakeCCompilerABI.c.o
+        /usr/bin/cc   -v -Wl,-v -MD -MT CMakeFiles/cmTC_b2260.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_b2260.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_b2260.dir/CMakeCCompilerABI.c.o -c /usr/local/share/cmake/Modules/CMakeCCompilerABI.c
         Apple clang version 14.0.0 (clang-1400.0.29.202)
         Target: x86_64-apple-darwin21.6.0
         Thread model: posix
         InstalledDir: /Library/Developer/CommandLineTools/usr/bin
         clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
-         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple x86_64-apple-macosx12.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -fno-rounding-math -funwind-tables=2 -target-sdk-version=13.1 -fvisibility-inlines-hidden-static-local-var -target-cpu penryn -tune-cpu generic -debugger-tuning=lldb -target-linker-version 820.1 -v -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0 -dependency-file CMakeFiles/cmTC_14d91.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_14d91.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -Wno-cast-function-type -Wno-bitwise-instead-of-logical -fdebug-compilation-dir=/Users/Mac/amrex-practice/build/CMakeFiles/CMakeScratch/TryCompile-4BntK5 -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -clang-vendor-feature=+messageToSelfInClassMethodIdReturnType -clang-vendor-feature=+disableInferNewAvailabilityFromInit -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_14d91.dir/CMakeCCompilerABI.c.o -x c /usr/local/share/cmake/Modules/CMakeCCompilerABI.c
+         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple x86_64-apple-macosx12.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -fno-rounding-math -funwind-tables=2 -target-sdk-version=13.1 -fvisibility-inlines-hidden-static-local-var -target-cpu penryn -tune-cpu generic -debugger-tuning=lldb -target-linker-version 820.1 -v -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0 -dependency-file CMakeFiles/cmTC_b2260.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_b2260.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -Wno-cast-function-type -Wno-bitwise-instead-of-logical -fdebug-compilation-dir=/Users/Mac/amrex-practice/build/CMakeFiles/CMakeScratch/TryCompile-led78N -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -clang-vendor-feature=+messageToSelfInClassMethodIdReturnType -clang-vendor-feature=+disableInferNewAvailabilityFromInit -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_b2260.dir/CMakeCCompilerABI.c.o -x c /usr/local/share/cmake/Modules/CMakeCCompilerABI.c
         clang -cc1 version 14.0.0 (clang-1400.0.29.202) default target x86_64-apple-darwin21.6.0
         ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"
         ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"
@@ -1525,13 +1649,13 @@ events:
          /Library/Developer/CommandLineTools/usr/include
          /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)
         End of search list.
-        Linking C executable cmTC_14d91
-        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_14d91.dir/link.txt --verbose=1
+        Linking C executable cmTC_b2260
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b2260.dir/link.txt --verbose=1
         Apple clang version 14.0.0 (clang-1400.0.29.202)
         Target: x86_64-apple-darwin21.6.0
         Thread model: posix
         InstalledDir: /Library/Developer/CommandLineTools/usr/bin
-         "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 12.0.0 13.1 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -o cmTC_14d91 -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_14d91.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/lib/darwin/libclang_rt.osx.a
+         "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 12.0.0 13.1 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -o cmTC_b2260 -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_b2260.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/lib/darwin/libclang_rt.osx.a
         @(#)PROGRAM:ld  PROJECT:ld64-820.1
         BUILD 20:07:01 Nov  7 2022
         configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
@@ -1540,8 +1664,8 @@ events:
         	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib
         Framework search paths:
         	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/
-        /usr/bin/cc -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_14d91.dir/CMakeCCompilerABI.c.o -o cmTC_14d91
-        gmake[1]: Leaving directory '/Users/Mac/amrex-practice/build/CMakeFiles/CMakeScratch/TryCompile-4BntK5'
+        /usr/bin/cc -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_b2260.dir/CMakeCCompilerABI.c.o -o cmTC_b2260
+        gmake[1]: Leaving directory '/Users/Mac/amrex-practice/build/CMakeFiles/CMakeScratch/TryCompile-led78N'
         
       exitCode: 0
   -
@@ -1585,19 +1709,19 @@ events:
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/Users/Mac/amrex-practice/build/CMakeFiles/CMakeScratch/TryCompile-4BntK5']
+        ignore line: [Change Dir: '/Users/Mac/amrex-practice/build/CMakeFiles/CMakeScratch/TryCompile-led78N']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/local/bin/gmake -f Makefile cmTC_14d91/fast]
-        ignore line: [/usr/local/bin/gmake  -f CMakeFiles/cmTC_14d91.dir/build.make CMakeFiles/cmTC_14d91.dir/build]
-        ignore line: [gmake[1]: Entering directory '/Users/Mac/amrex-practice/build/CMakeFiles/CMakeScratch/TryCompile-4BntK5']
-        ignore line: [Building C object CMakeFiles/cmTC_14d91.dir/CMakeCCompilerABI.c.o]
-        ignore line: [/usr/bin/cc   -v -Wl -v -MD -MT CMakeFiles/cmTC_14d91.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_14d91.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_14d91.dir/CMakeCCompilerABI.c.o -c /usr/local/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/local/bin/gmake -f Makefile cmTC_b2260/fast]
+        ignore line: [/usr/local/bin/gmake  -f CMakeFiles/cmTC_b2260.dir/build.make CMakeFiles/cmTC_b2260.dir/build]
+        ignore line: [gmake[1]: Entering directory '/Users/Mac/amrex-practice/build/CMakeFiles/CMakeScratch/TryCompile-led78N']
+        ignore line: [Building C object CMakeFiles/cmTC_b2260.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/cc   -v -Wl -v -MD -MT CMakeFiles/cmTC_b2260.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_b2260.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_b2260.dir/CMakeCCompilerABI.c.o -c /usr/local/share/cmake/Modules/CMakeCCompilerABI.c]
         ignore line: [Apple clang version 14.0.0 (clang-1400.0.29.202)]
         ignore line: [Target: x86_64-apple-darwin21.6.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
         ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
-        ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple x86_64-apple-macosx12.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -fno-rounding-math -funwind-tables=2 -target-sdk-version=13.1 -fvisibility-inlines-hidden-static-local-var -target-cpu penryn -tune-cpu generic -debugger-tuning=lldb -target-linker-version 820.1 -v -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0 -dependency-file CMakeFiles/cmTC_14d91.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_14d91.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -Wno-cast-function-type -Wno-bitwise-instead-of-logical -fdebug-compilation-dir=/Users/Mac/amrex-practice/build/CMakeFiles/CMakeScratch/TryCompile-4BntK5 -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -clang-vendor-feature=+messageToSelfInClassMethodIdReturnType -clang-vendor-feature=+disableInferNewAvailabilityFromInit -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_14d91.dir/CMakeCCompilerABI.c.o -x c /usr/local/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple x86_64-apple-macosx12.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -fno-rounding-math -funwind-tables=2 -target-sdk-version=13.1 -fvisibility-inlines-hidden-static-local-var -target-cpu penryn -tune-cpu generic -debugger-tuning=lldb -target-linker-version 820.1 -v -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0 -dependency-file CMakeFiles/cmTC_b2260.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_b2260.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -Wno-cast-function-type -Wno-bitwise-instead-of-logical -fdebug-compilation-dir=/Users/Mac/amrex-practice/build/CMakeFiles/CMakeScratch/TryCompile-led78N -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -clang-vendor-feature=+messageToSelfInClassMethodIdReturnType -clang-vendor-feature=+disableInferNewAvailabilityFromInit -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_b2260.dir/CMakeCCompilerABI.c.o -x c /usr/local/share/cmake/Modules/CMakeCCompilerABI.c]
         ignore line: [clang -cc1 version 14.0.0 (clang-1400.0.29.202) default target x86_64-apple-darwin21.6.0]
         ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"]
         ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"]
@@ -1609,13 +1733,13 @@ events:
         ignore line: [ /Library/Developer/CommandLineTools/usr/include]
         ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)]
         ignore line: [End of search list.]
-        ignore line: [Linking C executable cmTC_14d91]
-        ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_14d91.dir/link.txt --verbose=1]
+        ignore line: [Linking C executable cmTC_b2260]
+        ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b2260.dir/link.txt --verbose=1]
         ignore line: [Apple clang version 14.0.0 (clang-1400.0.29.202)]
         ignore line: [Target: x86_64-apple-darwin21.6.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
-        link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 12.0.0 13.1 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -o cmTC_14d91 -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_14d91.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/lib/darwin/libclang_rt.osx.a]
+        link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 12.0.0 13.1 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -o cmTC_b2260 -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_b2260.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/lib/darwin/libclang_rt.osx.a]
           arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
           arg [-demangle] ==> ignore
           arg [-lto_library] ==> ignore, skip following value
@@ -1630,12 +1754,12 @@ events:
           arg [-syslibroot] ==> ignore
           arg [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_14d91] ==> ignore
+          arg [cmTC_b2260] ==> ignore
           arg [-L/usr/local/lib] ==> dir [/usr/local/lib]
           arg [-search_paths_first] ==> ignore
           arg [-headerpad_max_install_names] ==> ignore
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_14d91.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [CMakeFiles/cmTC_b2260.dir/CMakeCCompilerABI.c.o] ==> ignore
           arg [-lSystem] ==> lib [System]
           arg [/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/lib/darwin/libclang_rt.osx.a]
         linker tool for 'C': /Library/Developer/CommandLineTools/usr/bin/ld
@@ -1679,8 +1803,8 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "/Users/Mac/amrex-practice/build/CMakeFiles/CMakeScratch/TryCompile-5rt9mJ"
-      binary: "/Users/Mac/amrex-practice/build/CMakeFiles/CMakeScratch/TryCompile-5rt9mJ"
+      source: "/Users/Mac/amrex-practice/build/CMakeFiles/CMakeScratch/TryCompile-xbdfzr"
+      binary: "/Users/Mac/amrex-practice/build/CMakeFiles/CMakeScratch/TryCompile-xbdfzr"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -1694,17 +1818,17 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: '/Users/Mac/amrex-practice/build/CMakeFiles/CMakeScratch/TryCompile-5rt9mJ'
+        Change Dir: '/Users/Mac/amrex-practice/build/CMakeFiles/CMakeScratch/TryCompile-xbdfzr'
         
-        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/local/bin/gmake -f Makefile cmTC_c0444/fast
-        /usr/local/bin/gmake  -f CMakeFiles/cmTC_c0444.dir/build.make CMakeFiles/cmTC_c0444.dir/build
-        gmake[1]: Entering directory '/Users/Mac/amrex-practice/build/CMakeFiles/CMakeScratch/TryCompile-5rt9mJ'
-        Building C object CMakeFiles/cmTC_c0444.dir/src.c.o
-        /usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -MD -MT CMakeFiles/cmTC_c0444.dir/src.c.o -MF CMakeFiles/cmTC_c0444.dir/src.c.o.d -o CMakeFiles/cmTC_c0444.dir/src.c.o -c /Users/Mac/amrex-practice/build/CMakeFiles/CMakeScratch/TryCompile-5rt9mJ/src.c
-        Linking C executable cmTC_c0444
-        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c0444.dir/link.txt --verbose=1
-        /usr/bin/cc -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_c0444.dir/src.c.o -o cmTC_c0444
-        gmake[1]: Leaving directory '/Users/Mac/amrex-practice/build/CMakeFiles/CMakeScratch/TryCompile-5rt9mJ'
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/local/bin/gmake -f Makefile cmTC_7341f/fast
+        /usr/local/bin/gmake  -f CMakeFiles/cmTC_7341f.dir/build.make CMakeFiles/cmTC_7341f.dir/build
+        gmake[1]: Entering directory '/Users/Mac/amrex-practice/build/CMakeFiles/CMakeScratch/TryCompile-xbdfzr'
+        Building C object CMakeFiles/cmTC_7341f.dir/src.c.o
+        /usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -MD -MT CMakeFiles/cmTC_7341f.dir/src.c.o -MF CMakeFiles/cmTC_7341f.dir/src.c.o.d -o CMakeFiles/cmTC_7341f.dir/src.c.o -c /Users/Mac/amrex-practice/build/CMakeFiles/CMakeScratch/TryCompile-xbdfzr/src.c
+        Linking C executable cmTC_7341f
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7341f.dir/link.txt --verbose=1
+        /usr/bin/cc -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_7341f.dir/src.c.o -o cmTC_7341f
+        gmake[1]: Leaving directory '/Users/Mac/amrex-practice/build/CMakeFiles/CMakeScratch/TryCompile-xbdfzr'
         
       exitCode: 0
 ...
