@@ -1,0 +1,16 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/Mac/amrex-practice/build/cmake_install.cmake",
+		"/Users/Mac/amrex-practice/build/amrex/cmake_install.cmake",
+		"/Users/Mac/amrex-practice/build/amrex/Src/cmake_install.cmake",
+		"/Users/Mac/amrex-practice/build/amrex/Src/Base/cmake_install.cmake",
+		"/Users/Mac/amrex-practice/build/amrex/Src/Boundary/cmake_install.cmake",
+		"/Users/Mac/amrex-practice/build/amrex/Src/AmrCore/cmake_install.cmake",
+		"/Users/Mac/amrex-practice/build/amrex/Src/Amr/cmake_install.cmake",
+		"/Users/Mac/amrex-practice/build/amrex/Src/EB/cmake_install.cmake",
+		"/Users/Mac/amrex-practice/build/amrex/Src/LinearSolvers/cmake_install.cmake",
+		"/Users/Mac/amrex-practice/build/amrex/Src/Particle/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
