@@ -1,12 +1,14 @@
 import yt
-from yt.frontends import boxlib
 from yt.frontends.boxlib.data_structures import AMReXDataset
 
-ds = AMReXDataset("plot")
-#ds = yt.load("your_dataset")
+ds = yt.load("build/plot")
 
-sc = yt.create_scene(ds, field=('boxlib', 'phi'), lens_type="perspective")
+# Create a top-down slice in the z-direction
+slc = yt.SlicePlot(ds, 'z', ('boxlib', 'phi'))
 
-source = sc[0]
+# Use a color map and log or linear scale
+slc.set_cmap(('boxlib', 'phi'), 'viridis')  # or 'plasma', 'inferno', etc.
+slc.set_log(('boxlib', 'phi'), False)       # set to True if your data spans orders of magnitude
 
-sc.save("rendering.png")
+# Save the plot to file
+slc.save("phi_slice_topdown.png")

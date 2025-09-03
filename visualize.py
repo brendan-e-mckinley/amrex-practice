@@ -9,4 +9,4 @@ sc = yt.create_scene(ds, field=('boxlib', 'phi'), lens_type="perspective")
 
 source = sc[0]
 
-sc.save("rendering.png", sigma_clip=6.0)
+sc.save("rendering.png")

@@ -19,8 +19,9 @@ void main_main ()
     IntVect dom_lo(0);
     IntVect dom_hi(n_cell-1);
     Box domain(dom_lo, dom_hi);
+    // set X, Y, (and Z) low/high domain values
     RealBox real_box({AMREX_D_DECL(0.0, 0.0, 0.0)},
-                    {AMREX_D_DECL(1.0, 1.0, 1.0)});
+                    {AMREX_D_DECL(2*M_PI, 2*M_PI, 2*M_PI)});
     int coord = 0; // Cartesian
 
     // set which dimensions are periodic (in this case, none)
@@ -79,7 +80,6 @@ void main_main ()
                                         LinOpBCType::Dirichlet)});
 
     mlpoisson.setLevelBC(0, nullptr);  // No coarse-fine BC since no AMR here
-    //mlpoisson.setSigma(0, 1.0);        // Coefficient for Laplacian
 
     MLMG mlmg(mlpoisson);
     mlmg.setVerbose(1);                // Print info
@@ -87,6 +87,25 @@ void main_main ()
     mlmg.solve({&phi}, {&rhs}, 1e-10, 1e-10);
 
     WriteSingleLevelPlotfile("plot", phi, {"phi"}, geom, 0.0, 0);
+
+    for (MFIter mfi(phi); mfi.isValid(); ++mfi)
+    {
+        const Box& bx = mfi.validbox();
+        Array4<Real const> arr = phi.const_array(mfi);
+        const auto dx = geom.CellSize();
+        const auto prob_lo = geom.ProbLo();
+
+        for (int j = bx.smallEnd(1); j <= bx.bigEnd(1); ++j)
+        {
+            for (int i = bx.smallEnd(0); i <= bx.bigEnd(0); ++i)
+            {
+                Real x = prob_lo[0] + (i + 0.5) * dx[0];
+                Real y = prob_lo[1] + (j + 0.5) * dx[1];
+                Real val = arr(i, j, 0);
+                amrex::Print() << "phi(" << x << ", " << y << ") = " << val << "\n";
+            }
+        }
+    }
 }
 
 int main(int argc, char* argv[]) {
